@@ -4,7 +4,7 @@ import Home from "./components/Home"
 import Navbar from "./components/navbar"
 import Services from "./components/Services"
 import Projects from "./components/Projects"
-import {createBrowserRouter, RouterProvider} from "react-router-dom"
+import {HashRouter, createBrowserRouter, RouterProvider} from "react-router-dom"
 import WhyUs from "./components/whyus"
 import Contact from "./components/Contactus"
 import Testimonials from "./components/InfiniteTestimonials"
@@ -56,7 +56,7 @@ function App() {
 
   return (
     <>
-    <RouterProvider router={router}/> 
+    <HashRouter router={router} basename="/Khokhar_Construction"/> 
  
     </>
   )
