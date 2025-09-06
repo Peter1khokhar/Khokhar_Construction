@@ -1,4 +1,4 @@
-import Housepic from "../assets/Housepic.jpg"
+import Housepic from "../assets/housepic.jpg"
 import Achievements from "./Achievments"
 import WhatsAppButton from "./WhatsappButton"
 import ScrollToTop from "./functionalities/ScrollBtn"
