@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
-import Kc from '../assets/Kc.png'
+import Kc from '../assets/kc.png'
 
 
 export default function Navbar() {
