@@ -50,11 +50,11 @@ export default function Navbar() {
         <div className="md:hidden  bg-white shadow-lg">
           <div className="flex flex-col items-center space-y-4 py-6 ">
             <NavLink onClick={toggleMenu} to="/" className={linkClasses}>Home</NavLink>
-            <NavLink onClick={toggleMenu} to="/about" className={linkClasses}>About</NavLink>
+            <NavLink onClick={toggleMenu} to="/Aboutus" className={linkClasses}>About</NavLink>
             <NavLink onClick={toggleMenu} to="/services" className={linkClasses}>Services</NavLink>
             <NavLink onClick={toggleMenu} to="/projects" className={linkClasses}>Projects</NavLink>
-            <NavLink onClick={toggleMenu} to="/testimonials" className={linkClasses}>Testimonials</NavLink>
-            <NavLink onClick={toggleMenu} to="/contact" className={linkClasses}>Contact</NavLink>
+            <NavLink onClick={toggleMenu} to="/InfiniteTestimonials" className={linkClasses}>Testimonials</NavLink>
+            <NavLink onClick={toggleMenu} to="/Contact" className={linkClasses}>Contact</NavLink>
           </div>
         </div>
       )}

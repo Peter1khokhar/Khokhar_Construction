@@ -28,7 +28,7 @@ const Home = () => {
   <div className="relative h-[80vh]">
   {/* Background Image */}
   <motion.div 
-    className="absolute inset-0 bg-center bg-cover"
+    className="absolute inset-0 bg-center bg-cover bg-no-repeat"
     style={{ backgroundImage: `url(${Housepic})` }}
   >
     {/* Black Overlay only on image */}
