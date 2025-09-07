@@ -1,4 +1,4 @@
-import Housepic from "../assets/housepic.jpg"
+import housepic from "../assets/housepic.jpg"
 import Achievements from "./Achievments"
 import WhatsAppButton from "./WhatsappButton"
 import ScrollToTop from "./functionalities/ScrollBtn"
@@ -29,7 +29,7 @@ const Home = () => {
   {/* Background Image */}
   <motion.div 
     className="absolute inset-0 bg-center bg-cover bg-no-repeat"
-    style={{ backgroundImage: `url(${Housepic})` }}
+    style={{ backgroundImage: `url(${housepic})` }}
   >
     {/* Black Overlay only on image */}
     <div className="absolute inset-0 bg-black/50"></div>
